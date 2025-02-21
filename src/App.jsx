@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import FoodOption from './components/Food/Foodoption'
+import GroceryOption from './components/Grocery/GroceryOption'
 
 function App() {
 
 
   return (
     <>
-     {/* <h1 className="text-3xl font-bold underline bg-amber-400">SWIGGY CLONE </h1> */}
      <Header />
+     <FoodOption/>
+     <GroceryOption/>
     </>
   )
 }
